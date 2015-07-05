@@ -64,7 +64,7 @@ public class DataAdapter extends RecyclerView.Adapter {
 	public int getItemViewType(int position) {
 		return studentList.get(position) != null ? VIEW_ITEM : VIEW_PROG;
 	}
-
+///
 	@Override
 	public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent,
 			int viewType) {
